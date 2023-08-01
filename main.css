@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+hr{
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc)
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F9FBFF;
+}
+
+header{
+    background-color: #576E8A;
+    color: #ffff;
+    padding: 10px 0;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+header h1{
+    font-family: 'Cormorant Garamond', serif;
+}
+
+header nav li{
+    display: inline;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav li a{
+    text-decoration: none;
+    color: #ffff;
+    margin-right: 15px;
+    padding: 5px 7px;
+}
+
+header nav li a:hover{
+    background-color: #3d5068;
+    border-radius: 5px;
+}
+
+#home .container{
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-between;
+    padding: 60px 0;
+}
+
+#home img{
+    height: 500px;
+}
+
+#home p,h2{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+#especialidades{
+    background-color: #3d5068;
+}
+
+#especialidades img{
+    height: 220px;
+}
+
+#especialidades .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding: 80px 30px;
+}
+
+#especialidades .container p{
+    padding: 5px 0;
+    color: #ffff;
+}
+
+#especialidades .container h3{
+    background-color: white;
+    padding: 10px 0px;
+    color: #3d5068;
+    border-radius: 5px;
+    width: 156px;
+    margin: 25px auto;
+}
+
+#quem-somos .container h1{
+    color: #3d5068;
+    margin: 5px 0;
+}
+
+#quem-somos .paragrafos{
+    margin: 50px 0px;
+}
+
+#quem-somos .paragrafos p{
+    margin: 10px 0px;
+}
+
+#contato{
+    background-color:#3d5068;
+}
+
+#contato .container{
+    display: flex;
+    align-items: flex-start;
+    padding: 50px 0px;
+    justify-content: space-between;
+}
+
+#contato form input,button,textarea{
+    display: block;
+    width: 650px;
+    margin: 20px 0px;
+    border-radius: 30px;
+    padding: 15px;
+    border: 0.3px solid rgb(223, 223, 223);
+}
+
+#contato form textarea{
+    height: 200px;
+    resize: none;
+}
+
+#contato h3{
+    font-size: 50px;
+    color: #ffff;
+}
+
+#contato input:focus, textarea:focus{
+    outline-color: #d8d8d8;
+}
+
+#contato button{
+    background-color:#576E8A;
+    border: none;
+    color: #ffff;
+    cursor: pointer;
+}
+
+#contato button:hover{
+    background-color:#FFFF;
+    color: #3d5068;
+}
+
+footer {
+    padding: 15px;
+    text-align: center;
+}
